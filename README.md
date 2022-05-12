@@ -26,11 +26,11 @@ After getting the skull stripped images from both label images (e.x. /delineated
 Here we use the package [voxelmorph](https://github.com/voxelmorph/voxelmorph) to find a transformation field and apply the transformation to the segementation label. After doing the registration, we can have segmentation label images for our unlabel images on each label images.
 The reulst for the registration from 01_ANAT_N4_MNI_fcm.nii.gz to 001_T1.nii.gz:
 <div align=center>
-<img src = "https://github.com/TIGEERR/MIA-project-2/blob/main/pics/01.png" width="700px">
+<img src = "https://github.com/TIGEERR/MIA-project-2/blob/main/pics/registration_01_001.png" width="700px">
 </div>
 The reulst for the registration from 02_ANAT_N4_MNI_fcm.nii.gz to 001_T1.nii.gz:
 <div align=center>
-<img src = "https://github.com/TIGEERR/MIA-project-2/blob/main/pics/02.png" width="700px">
+<img src = "https://github.com/TIGEERR/MIA-project-2/blob/main/pics/registration_02_001.png" width="700px">
 </div>
 
 ### Label Fusion
