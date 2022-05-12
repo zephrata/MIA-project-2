@@ -51,6 +51,7 @@ First we want to use 3D-convolution neural network to predict age. However, sinc
 
 Since it is a regression prediction problem, we use MSE (Mean squared error) as the loss function, Adam as the optimizer, I built resnet10, resnet18, resnet34. The final network structure is as follows.
 <div align=center>
-<img src = "https://github.com/zephrata/MIA-project-2/blob/main/pics/resnet_para.png" width="300px">
+<img src = "https://github.com/zephrata/MIA-project-2/blob/main/pics/resnet_para.png" width="500px">
 </div>
 
+The result with resnet 10:
