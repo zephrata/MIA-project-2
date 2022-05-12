@@ -44,3 +44,9 @@ The label fusion result is
 </div>
 
 ## Task B: Age Prediction
+First we want to use 3D-convolution neural network to predict age. However, since the gradient of the neural network will disappear as the depth increases (the derivative of F(x) will be multiplied in each layer, and the final number will be close to 0), this problem can be solved by adding a layer of shortcut, so that the value of the derivative is constantly greater than 1. The following figure shows the residual block of resnet:
+<div align=center>
+<img src = "https://github.com/TIGEERR/MIA-project-2/blob/main/pics/resnet.png" width="700px">
+</div>
+
+
